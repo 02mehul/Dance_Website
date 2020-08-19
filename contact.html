@@ -1,0 +1,39 @@
+<html>
+  <head>
+<title>Dance for Change</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+     <header>
+  <div class="row"> <div class="hero">
+		      <div class="logo">
+			  <img src="logo.png">
+		
+			  
+		<ul class="main-nav">
+	         <li><a href="index.html"> HOME </a></li>	 
+			 <li><a href="services.html"> SERVICES </a></li>
+			 <li><a href="about.html"> ABOUT </a></li>
+			 <li class="active"><a href="contact.html"> CONTACT </a></li>
+			 <li><a href="forms.html"> FORMS </a></li>
+			 <li><a href="schedule.html"> SCHEDULE </a></li>			 
+		 </ul>
+	</div><h3><font color=aqua><br><br><br><br><hr><br><br><br><br><br><br><br><br><br>
+	<center><h3>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter your name" required id="na" maxlength=20><br><br>
+		Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="Enter your email" required id="em"><br><br>
+		Contact No.:<input type="tel" maxlength=10 placeholder="Enter your mobile no." required id="co"><br><br>
+		Address:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="Enter your address" required id="ad"><br><br><br>
+		<input type="submit" onclick="check()"size=50>
+		<script style="javascript">function check(){
+		var a=document.getElementById("na").value;
+		var b=document.getElementById("em").value;
+		var c=document.getElementById("co").value;
+		var d=document.getElementById("ad").value;
+		
+		if(a=="" || b=="" || c==""|| d==""){alert("Please Enter all details");}
+		else{alert("Thank you! We'll get back to you soon. :)");}
+		}</script>
+	
+</body>
+</html>	 
